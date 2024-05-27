@@ -1,0 +1,10 @@
+packages:
+  - "host"
+  - "header"
+  - "footer"
+  - "templates"
+  - "jobs"
+  - "inventories"
+  - "repositories"
+  - "users"
+  - "keys"

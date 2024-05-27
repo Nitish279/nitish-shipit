@@ -1,0 +1,32 @@
+{
+  "name": "shipit-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm --recursive run start",
+    "build": "pnpm --recursive run build",
+    "test": "pnpm --recursive run test",
+    "clean": "pnpm --recursive run clean",
+    "serve": "pnpm --recursive run serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.5",
+    "react-redux": "^9.1.2",
+    "redux-thunk": "^3.1.0"
+  }
+}
